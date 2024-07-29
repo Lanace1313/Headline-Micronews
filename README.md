@@ -34,10 +34,11 @@
 - 七牛云存储用于图片的上传
 
 数据库技术：
-- MySql关系型数据库系统
+- MySql关系型
+数据库系统
 - Redis非关系型数据库系统
 
 网站展示：
-![login](https://github.com/user-attachments/assets/746cee9d-c08c-4396-abc6-c445c64faa38)
-![home](https://github.com/user-attachments/assets/0c31dffa-8e7b-4cb2-a296-f0d61d3bbf69)
-![manage](https://github.com/user-attachments/assets/19988518-1ecc-4aed-aaff-dc32f1af42da)
+![login](https://github.com/user-attachments/assets/0de20891-4eb0-4771-a5f5-8ae3d83ffb22)
+![home](https://github.com/user-attachments/assets/3af8ef82-ffbe-44b4-93d9-58fe8e57017d)
+![manage](https://github.com/user-attachments/assets/b030ccef-5672-42a2-a55f-e3cac5317258)
