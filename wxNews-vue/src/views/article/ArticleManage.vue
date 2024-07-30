@@ -128,7 +128,7 @@ const articles = ref([
         "title": "测试",
         "userId": "1",
         "content": "无数据",
-        "coverImg": "https://big-event-gwd.oss-cn-beijing.aliyuncs.com/9bf1cf5b-1420-4c1b-91ad-e0f4631cbed4.png",
+        "coverImg": "",
         "state": "已发布",
         "categoryId": 1,
         "publishTime": "2023-09-03 11:55:30",

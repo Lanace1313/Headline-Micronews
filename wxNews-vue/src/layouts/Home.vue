@@ -11,7 +11,7 @@
                 <div style="margin-right: 20px;">用户：<strong>{{ userInfoStore.info.username }}</strong></div>
                 <el-dropdown placement="bottom-end" @command="handleCommand">
                     <span class="el-dropdown__box">
-                        <el-avatar :src="userInfoStore.info.avatar ? userInfoStore.info.avatar : avatar" />
+                        <el-avatar :src="userInfoStore.info.avatar || avatar" />
                         <el-icon>
                             <CaretBottom />
                         </el-icon>
@@ -30,8 +30,8 @@
         <!-- 中间区域 -->
         <el-main>
             <!-- <div style="border: 1px solid red;"> -->
-                <!-- 内容展示区 -->
-                <ShowVue style="max-width: 80%; margin: 0 auto; display: block;"></ShowVue>
+            <!-- 内容展示区 -->
+            <ShowVue style="max-width: 1000px; margin: 0 auto; display: block;"></ShowVue>
             <!-- </div> -->
         </el-main>
         <!-- 底部区域 -->
@@ -118,6 +118,8 @@ const handleCommand = (command) => {
 .layout-container {
     height: 100vh;
     background-color: #f7f8fc;
+    background-image: url('@/assets/home_bg.jpg');
+    background-size: contain; //将图像缩放成适合背景定位区域的最大大小
 
     .el-header {
         background-color: #ffffff;
@@ -132,7 +134,7 @@ const handleCommand = (command) => {
 
         .logo {
             width: 40%;
-            height: auto;
+            //height: auto;
         }
 
         .right-content {
