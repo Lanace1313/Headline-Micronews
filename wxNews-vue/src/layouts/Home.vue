@@ -67,7 +67,7 @@ import { useTokenStore } from '@/stores/token.js'
 const router = useRouter()
 const tokenStore = useTokenStore()
 
-import ShowVue from '@/components/Show.vue'
+import ShowVue from '@/components/ArticleListShow.vue'
 
 //获取个人信息
 const getUserInf = async () => {
@@ -106,7 +106,7 @@ const handleCommand = (command) => {
                 })
             })
     } else if (command === 'manage') {
-        router.push('/article/manage')
+        router.push('/manage/home')
     } else {
         //路由
         router.push('/user/' + command)

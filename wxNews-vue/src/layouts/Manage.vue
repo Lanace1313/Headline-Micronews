@@ -7,6 +7,12 @@
             <!-- element-plus菜单标签 -->
             <el-menu class="custom-menu" active-text-color="#c1efb6" background-color="#FFFFFF" text-color="#636466"
                 router>
+                <el-menu-item index="/manage/home">
+                    <el-icon>
+                        <HomeFilled />
+                    </el-icon>
+                    <span>系统首页</span>
+                </el-menu-item>
                 <el-menu-item index="/article/category" v-if="userInfoStore.info.role == 'ROOT'">
                     <el-icon>
                         <Management />
@@ -31,7 +37,7 @@
                     </el-icon>
                     <span>用户管理</span>
                 </el-menu-item>
-                <el-sub-menu>
+                <el-sub-menu index="1">
                     <template #title>
                         <el-icon>
                             <Avatar />
@@ -89,6 +95,7 @@
 
 <script setup>
 import {
+    HomeFilled,
     Management,
     Promotion,
     Avatar,

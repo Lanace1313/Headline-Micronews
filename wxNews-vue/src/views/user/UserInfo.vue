@@ -20,7 +20,7 @@
                     <el-form-item label="用户身份">
                         <el-input v-model="userInfo.role" disabled></el-input>
                     </el-form-item>
-                    <el-form-item label="创建时间">
+                    <el-form-item label="注册时间">
                         <el-input v-model="userInfo.createTime" disabled></el-input>
                     </el-form-item>
                     <el-form-item>

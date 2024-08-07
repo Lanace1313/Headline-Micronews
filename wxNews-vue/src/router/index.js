@@ -5,6 +5,7 @@ import ManagetVue from '@/layouts/Manage.vue'
 import HomeVue from '@/layouts/Home.vue'
 
 import LoginVue from '@/views/Login.vue'
+import ManageHomeVue from '@/views/ManageHome.vue'
 import ArticleCategoryVue from '@/views/article/ArticleCategory.vue'
 import ArticleFavorite from '@/views/article/ArticleFavorite.vue'
 import ArticleManageVue from '@/views/article/ArticleManage.vue'
@@ -17,12 +18,13 @@ const routes = [
     { path: '/login', component: LoginVue },
     { path: '/', component: HomeVue },
     {
-        path: '/manager',
+        path: '/manage',
         component: ManagetVue,
         //重定向
-        redirect: '/article/manage',
+        redirect: '/manage/home',
         //子路由
         children: [
+            { path: '/manage/home', component: ManageHomeVue },
             { path: '/article/category', component: ArticleCategoryVue },
             { path: '/article/favorite', component: ArticleFavorite },
             { path: '/article/manage', component: ArticleManageVue },

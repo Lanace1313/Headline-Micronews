@@ -6,7 +6,7 @@ import 'element-plus/dist/index.css'
 import router from '@/router'
 import { createPinia } from 'pinia'
 //导入持久化插件
-import {createPersistedState} from'pinia-persistedstate-plugin'
+import { createPersistedState } from 'pinia-persistedstate-plugin'
 //导入中文语言包
 import locale from 'element-plus/dist/locale/zh-cn.js'
 
@@ -19,5 +19,5 @@ const persist = createPersistedState()
 pinia.use(persist)
 app.use(pinia)
 app.use(router)
-app.use(ElementPlus,{locale})
+app.use(ElementPlus, { locale })
 app.mount('#app')
