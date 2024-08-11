@@ -14,6 +14,7 @@
 - npm用于项目依赖管理工具
 - Vue3用于项目数据的渲染框架
 - Element-Plus提供组件
+- Echarts提供多图表类型组件
 - Scss用于Css3的预处理
 - Axios用于前后端数据的交互
 - Router用于页面的跳转
@@ -39,6 +40,7 @@
 - Redis非关系型数据库系统
 
 网站展示：
-![login](https://github.com/user-attachments/assets/0de20891-4eb0-4771-a5f5-8ae3d83ffb22)
-![home](https://github.com/user-attachments/assets/3af8ef82-ffbe-44b4-93d9-58fe8e57017d)
-![manage](https://github.com/user-attachments/assets/b030ccef-5672-42a2-a55f-e3cac5317258)
+![login](https://github.com/user-attachments/assets/a22d4a45-4816-43c7-a05c-13e851afa2ec)
+![home](https://github.com/user-attachments/assets/47b1bfb8-b5a2-40fd-b9de-e5a2d659efa2)
+![manageHome](https://github.com/user-attachments/assets/4064c472-14e4-47a2-a11f-b6db231aced9)
+![manage](https://github.com/user-attachments/assets/3b87ef4b-549c-41dd-9eda-b8bd151402e0)
